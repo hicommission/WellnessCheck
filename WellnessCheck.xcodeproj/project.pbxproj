@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0B0D2FEFBB4682C646A5C9 /* WellnessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595297D1EB630B590CDF0555 /* WellnessManager.swift */; };
+		20CEF689D500C495280C010D /* ActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC010F4B4588B5DCFD2F9607 /* ActivityMonitor.swift */; };
+		270FAFDB0AEE93BE7343D380 /* SMTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA22A2FAD3F44459261A1E /* SMTPHelper.swift */; };
+		40A97946C5D9E27822771B4E /* WellnessCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6D0060EC71EFDE774B51C /* WellnessCheckApp.swift */; };
+		65176FC7C793EFB0B6C430FA /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F86D1BF7DB19040F2C58A /* EmailHelper.swift */; };
+		A1B2C3D4E5F60718DEADBEEF /* EmailTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D3C4B5A607180BADCAFE /* EmailTemplates.swift */; };
+		C4A6843CEAE49A4F9EC860E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F500B9E7CF30C7AFD83863F0 /* Assets.xcassets */; };
+		CE5F5E3427CBB2CFD5F9E725 /* WellnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1114FB49B56297A2B51530 /* WellnessModel.swift */; };
+		CEBAF9F20BFFC966BA7EA0C4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D432E2929046471DB7E6B902 /* SettingsView.swift */; };
+		E3111ECA9D7F7279716217AA /* MessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331B5AC63C367C85D520D1E /* MessageHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15C71B10F3272F82F0A012DB /* WellnessCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellnessCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB6D0060EC71EFDE774B51C /* WellnessCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessCheckApp.swift; sourceTree = "<group>"; };
+		492F86D1BF7DB19040F2C58A /* EmailHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailHelper.swift; sourceTree = "<group>"; };
+		F1E2D3C4B5A607180BADCAFE /* EmailTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTemplates.swift; sourceTree = "<group>"; };
+		595297D1EB630B590CDF0555 /* WellnessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessManager.swift; sourceTree = "<group>"; };
+		AA1114FB49B56297A2B51530 /* WellnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessModel.swift; sourceTree = "<group>"; };
+		B331B5AC63C367C85D520D1E /* MessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHelper.swift; sourceTree = "<group>"; };
+		BFDA22A2FAD3F44459261A1E /* SMTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMTPHelper.swift; sourceTree = "<group>"; };
+		CC010F4B4588B5DCFD2F9607 /* ActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityMonitor.swift; sourceTree = "<group>"; };
+		D432E2929046471DB7E6B902 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F500B9E7CF30C7AFD83863F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6C27BF649BE19AC9711CE8E0 = {
+			isa = PBXGroup;
+			children = (
+				755EF15D6F1DEE76DD1AA66B /* WellnessCheck */,
+				8B5803682DA102ADDFB79D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755EF15D6F1DEE76DD1AA66B /* WellnessCheck */ = {
+			isa = PBXGroup;
+			children = (
+				CC010F4B4588B5DCFD2F9607 /* ActivityMonitor.swift */,
+				F500B9E7CF30C7AFD83863F0 /* Assets.xcassets */,
+				492F86D1BF7DB19040F2C58A /* EmailHelper.swift */,
+				F1E2D3C4B5A607180BADCAFE /* EmailTemplates.swift */,
+				B331B5AC63C367C85D520D1E /* MessageHelper.swift */,
+				D432E2929046471DB7E6B902 /* SettingsView.swift */,
+				BFDA22A2FAD3F44459261A1E /* SMTPHelper.swift */,
+				3DB6D0060EC71EFDE774B51C /* WellnessCheckApp.swift */,
+				595297D1EB630B590CDF0555 /* WellnessManager.swift */,
+				AA1114FB49B56297A2B51530 /* WellnessModel.swift */,
+			);
+			path = WellnessCheck;
+			sourceTree = "<group>";
+		};
+		8B5803682DA102ADDFB79D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C71B10F3272F82F0A012DB /* WellnessCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A85C38FB9E3F1C6F4B6D57B /* WellnessCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EB162085AED50D99ED7640 /* Build configuration list for PBXNativeTarget "WellnessCheck" */;
+			buildPhases = (
+				463FAE17F94FEDA98069AB3F /* Sources */,
+				77C9715688081E745D561748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellnessCheck;
+			packageProductDependencies = (
+			);
+			productName = WellnessCheck;
+			productReference = 15C71B10F3272F82F0A012DB /* WellnessCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2BEBEA2875F70F55383BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A85C38FB9E3F1C6F4B6D57B = {
+						DevelopmentTeam = 87A946NS4K;
+					};
+				};
+			};
+			buildConfigurationList = 681C599AD077E4C0E66D5276 /* Build configuration list for PBXProject "WellnessCheck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6C27BF649BE19AC9711CE8E0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A85C38FB9E3F1C6F4B6D57B /* WellnessCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C9715688081E745D561748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A6843CEAE49A4F9EC860E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463FAE17F94FEDA98069AB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CEF689D500C495280C010D /* ActivityMonitor.swift in Sources */,
+				65176FC7C793EFB0B6C430FA /* EmailHelper.swift in Sources */,
+				A1B2C3D4E5F60718DEADBEEF /* EmailTemplates.swift in Sources */,
+				E3111ECA9D7F7279716217AA /* MessageHelper.swift in Sources */,
+				270FAFDB0AEE93BE7343D380 /* SMTPHelper.swift in Sources */,
+				CEBAF9F20BFFC966BA7EA0C4 /* SettingsView.swift in Sources */,
+				40A97946C5D9E27822771B4E /* WellnessCheckApp.swift in Sources */,
+				0A0B0D2FEFBB4682C646A5C9 /* WellnessManager.swift in Sources */,
+				CE5F5E3427CBB2CFD5F9E725 /* WellnessModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DDCC01408FA68B89755B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C0230F86F0D32B66285CE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87A946NS4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "WellnessCheck needs permission to send alert emails via Mail.app and iMessages via Messages.app when inactivity is detected.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 HiCommission";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicommission.wellnesscheck;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3E2646B254C4F8FD56B8BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0AD966E0004D3B187772AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 87A946NS4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "WellnessCheck needs permission to send alert emails via Mail.app and iMessages via Messages.app when inactivity is detected.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 HiCommission";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hicommission.wellnesscheck;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67EB162085AED50D99ED7640 /* Build configuration list for PBXNativeTarget "WellnessCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0230F86F0D32B66285CE24 /* Debug */,
+				E0AD966E0004D3B187772AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		681C599AD077E4C0E66D5276 /* Build configuration list for PBXProject "WellnessCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E2646B254C4F8FD56B8BD9 /* Debug */,
+				5DDCC01408FA68B89755B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2BEBEA2875F70F55383BCB /* Project object */;
+}

@@ -1,0 +1,29 @@
+name: WellnessCheck
+options:
+  deploymentTarget:
+    macOS: "14.0"
+
+targets:
+  WellnessCheck:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: WellnessCheck
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hicommission.wellnesscheck
+        DEVELOPMENT_TEAM: 87A946NS4K
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: 1
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSUIElement: YES
+        INFOPLIST_KEY_NSHumanReadableCopyright: "© 2026 HiCommission"
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.lifestyle"
+        INFOPLIST_KEY_NSAppleEventsUsageDescription: "WellnessCheck needs permission to send alert emails via Mail.app and iMessages via Messages.app when inactivity is detected."
+        SWIFT_VERSION: 5.0
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+      configs:
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          DEBUG_INFORMATION_FORMAT: "dwarf-with-dsym"
